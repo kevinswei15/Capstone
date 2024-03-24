@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>PCBuilder</title>
+    <style>
+        .component-section {
+            margin-bottom: 20px;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1 id="title">PC Builder</h1>
+        <nav>
+            <ul>
+                <li><a href="top-deal.html">Today's Best Deal</a></li>
+                <li><a href="best-seller.html">Best Sellers</a></li>
+                <li><a href="clearance.html">Clearance</a></li>
+                <li><a href="PCBuilder.html">PC Builder</a></li>
+                <li><a href="register.html" id="sign-up-link">Sign Up</a></li>
+                <li><a href="login.html" id="login-link">Log In</a></li>
+                <li><a href="socialmedia.html" id="social">PC share</a></li>
+                <li><a href="#" id="logout-link" style="display: none;">Log Out</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="component-section">
+        <label for="cpu-select">CPU:</label>
+        <select id="cpu-select">
+            <option value="">--Select a CPU--</option>
+        </select>
+    </div>
+
+    <div class="component-section">
+        <label for="motherboard-select">Motherboard:</label>
+        <select id="motherboard-select">
+            <option value="">--Select a Motherboard--</option>
+        </select>
+    </div>
+
+    <div class="component-section">
+        <label for="gpu-select">GPU:</label>
+        <select id="gpu-select">
+            <option value="">--Select a GPU--</option>
+        </select>
+    </div>
+
+    <div class="component-section">
+        <label for="harddrive-select">Hard Drive:</label>
+        <select id="harddrive-select">
+            <option value="">--Select a Hard Drive--</option>
+        </select>
+    </div>
+
+    <div class="component-section">
+        <label for="powersupply-select">Power Supply:</label>
+        <select id="powersupply-select">
+            <option value="">--Select a Power Supply--</option>
+        </select>
+    </div>
+
+    <div class="component-section">
+        <label for="ram-select">RAM:</label>
+        <select id="ram-select">
+            <option value="">--Select RAM--</option>
+        </select>
+    </div>
+
+    <button id="build-button">Build PC</button>
+    <button id="reset-button">Reset</button>
+  <div class="return-home">
+      <a href="index.html">Home Page</a> 
+  </div>
+  <footer>
+    <p>&copy; 2023 PC-Dex Inc. All rights reserved.</p>
+  </footer>
+    <script src="script.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
